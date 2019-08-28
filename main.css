@@ -1,0 +1,141 @@
+﻿#logo a {
+    float: left;
+    font-weight: bold;
+    font-size: 34px;
+    margin-left: 10px;
+    text-decoration: none;
+    color:black;
+  
+}
+header {
+    height: 70px;
+    margin: 1px 1px 1px 1px;
+    padding: 10px 1px 1px 1px;
+    display: block;
+}
+nav {
+    overflow: hidden;
+    float: right;
+    display:block;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+}
+nav li {
+    float: left;
+    list-style: none;
+    padding:20px;
+}
+li {
+    display: block;
+}
+header nav li a {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+#top {
+    font-size: 3em;
+    height: 1000px;
+    width: 100%;
+    background-image: url(Golovna.png);
+    background-blend-mode: multiply;
+    background-color: #616b73;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+#top h1 {
+    text-align:center;
+    display:block;
+    padding-top:300px;
+}
+#main {
+   
+    background-color: #f6f6f6;
+    padding: 100px 0;
+    width:100%;
+}
+#tovar {
+    
+    width: 100%;
+    background-image: url(avtokran-palfinger-sany.jpg);
+    background-color: #616b73;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    display:block;
+    float:left;
+}
+    #tovar h2 {
+        text-align: center;
+        padding-top: 100px;
+        font-weight: bold;
+        font-size: 35px;
+        padding: 100px 0;
+        width: 100%;
+        text-align: center;
+    }
+
+
+    #tovar img {
+        padding-left: 60%;
+        float: left;
+        width: 30%;
+        margin-right: 5%;
+        margin-top: 50px;
+        display: block;
+        margin-right: 5%;
+        margin-top: 50px;
+        margin-bottom: 60px;
+        
+
+    }
+#tovar .img {
+    float: left;
+    width: 30%;
+    margin-right: 5%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+#tovar img {
+    float: left;
+    width: 100%;
+    max-width: 500px;
+}
+#tovar span {
+        float: left;
+        width: 100%;
+        font-size: 28px;
+        margin-top: 20px;
+        text-align: center;
+    }
+#info {
+    width: 100%;
+    display: block;
+    float: left;
+    background-color: #f6f6f6;
+}
+#info div{
+    display:block;
+    width:25%;
+    float:left;
+    padding:60px;
+}
+.footer {
+    justify-content:space-around;
+    float:left;
+    display:flex;
+    background-color: #f6f6f6;
+    width: 100%;
+    background: #fc3;
+    padding-bottom:40px;
+    padding-top:30px;
+}
+
+
